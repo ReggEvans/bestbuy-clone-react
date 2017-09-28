@@ -1,0 +1,128 @@
+/* ============================= */
+/* ------| Header Styles |------ */
+/* ============================= */
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #143B61;
+  color: #fff;
+  font-family: Arial,Helvetica;
+  font-size: 12px;
+}
+
+.header-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 210px;
+}
+
+.upper-nav {
+  display: flex;
+}
+
+.upper-nav p {
+  margin: 0 10px;
+}
+
+.slogan {
+  font-style: italic;
+}
+
+.header-middle-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+
+.middle-left {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 13px;
+  width: 300px;
+}
+
+.search button {
+  padding: 8px;
+  background-color: #fff;
+  border: none;
+  font-size: 13px;
+  border-radius: 3px;
+  margin-left: -5px;
+  color: #143B61;
+}
+
+.middle-right {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.location i {
+  margin: 0 5px;
+}
+
+#italic {
+  font-style: italic;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-left: 1px solid #ccc;
+}
+
+.cart p {
+  padding: 0 10px;
+}
+
+.header-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0E2E4C;
+  padding: 8px 200px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.history {
+  display: flex;
+}
+
+.history p {
+  margin: 5px 10px;
+}
+
+
+/* ============================= */
+/* -------| Home Styles |------- */
+/* ============================= */
+.jumbotron {
+  position: relative;
+}
+
+.jumbotron img {
+  width: 100%;
+}
